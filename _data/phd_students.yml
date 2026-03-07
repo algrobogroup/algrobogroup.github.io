@@ -1,4 +1,4 @@
-- name: Test
+- name: Test1
   degrees: PhD Student
   image: YoonchangSung.jpg
   altimage:
@@ -10,7 +10,7 @@
   description:
   description1:
 
-  - name: Test
+  - name: Test2
   degrees: PhD Student
   image: YoonchangSung.jpg
   altimage:
@@ -22,7 +22,7 @@
   description:
   description1:
 
-  - name: Test
+  - name: Test3
   degrees: PhD Student
   image: YoonchangSung.jpg
   altimage:
@@ -34,7 +34,7 @@
   description:
   description1:
 
-  - name: Test
+  - name: Test4
   degrees: PhD Student
   image: YoonchangSung.jpg
   altimage:
@@ -46,7 +46,7 @@
   description:
   description1:
 
-  - name: Test
+  - name: Test5
   degrees: PhD Student
   image: YoonchangSung.jpg
   altimage:
@@ -58,7 +58,7 @@
   description:
   description1:
 
-  - name: Test
+  - name: Test6
   degrees: PhD Student
   image: YoonchangSung.jpg
   altimage:
