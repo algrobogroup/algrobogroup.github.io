@@ -1,40 +1,43 @@
-- name: A
+- name: A Student
   degrees: PhD Student
   image: YoonchangSung.jpg
   altimage:
+  position: 
   email: 
+  website: 
   scholar: 
   google_scholar: 
-  twitter: 
-  position: 
-  description:
+  twitter:
+  description: 
   description1:
 
-  - name: B
+- name: B Student
   degrees: PhD Student
   image: YoonchangSung.jpg
   altimage:
+  position: 
   email: 
+  website: 
   scholar: 
   google_scholar: 
-  twitter: 
-  position: 
-  description:
+  twitter:
+  description: 
   description1:
 
-  - name: Peihan Li
+- name: C Student
   degrees: PhD Student
-  image: 
+  image: YoonchangSung.jpg
   altimage:
+  position: 
   email: 
+  website: 
   scholar: 
   google_scholar: 
-  twitter: 
-  position: 
-  description:
+  twitter:
+  description: 
   description1:
 
-- name: Amirhosein Chahe
+- name: D Student
   degrees: PhD Student
   image: YoonchangSung.jpg
   altimage:
