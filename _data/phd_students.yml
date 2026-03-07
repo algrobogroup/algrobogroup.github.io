@@ -22,9 +22,9 @@
   description:
   description1:
 
-  - name: C
+  - name: Peihan Li
   degrees: PhD Student
-  image: YoonchangSung.jpg
+  image: 
   altimage:
   email: 
   scholar: 
@@ -34,38 +34,15 @@
   description:
   description1:
 
-  - name: D
+- name: Amirhosein Chahe
   degrees: PhD Student
   image: YoonchangSung.jpg
   altimage:
+  position: 
   email: 
+  website: 
   scholar: 
   google_scholar: 
-  twitter: 
-  position: 
-  description:
-  description1:
-
-  - name: E
-  degrees: PhD Student
-  image: YoonchangSung.jpg
-  altimage:
-  email: 
-  scholar: 
-  google_scholar: 
-  twitter: 
-  position: 
-  description:
-  description1:
-
-  - name: F
-  degrees: PhD Student
-  image: YoonchangSung.jpg
-  altimage:
-  email: 
-  scholar: 
-  google_scholar: 
-  twitter: 
-  position: 
-  description:
+  twitter:
+  description: 
   description1:
