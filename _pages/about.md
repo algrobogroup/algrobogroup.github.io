@@ -32,14 +32,14 @@ latest_posts:
     src="{{ '/assets/img/group_logo_light.png' | relative_url }}"
     class="only-light"
     alt="ARG at NTU Singapore"
-    style="width: 40%; height: auto; display: block; margin: 0 auto 1.5rem auto;"
+    style="width: 40%; height: auto; margin: 0 auto 1.5rem auto;"
   >
 
   <img
     src="{{ '/assets/img/group_logo_dark.png' | relative_url }}"
     class="only-dark"
     alt="ARG at NTU Singapore"
-    style="width: 40%; height: auto; display: block; margin: 0 auto 1.5rem auto;"
+    style="width: 40%; height: auto; margin: 0 auto 1.5rem auto;"
   >
 </div>
 
