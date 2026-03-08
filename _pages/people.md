@@ -6,7 +6,7 @@ nav: true
 nav_order: 2
 ---
 
-## Principal Investigator
+## principal investigator
 
 <div class="row">
 {% for person in site.data.principal_investigator %}
@@ -33,7 +33,7 @@ nav_order: 2
 {% endfor %}
 </div>
 
-## PhD Students
+## phd students
 
 <div class="row">
 {% for person in site.data.phd_students %}
@@ -74,7 +74,7 @@ nav_order: 2
 {% endfor %}
 </div>
 
-## Masters and Undergraduates
+## master's students
 
 <div class="row">
 {% for person in site.data.masters_undergraduates %}
@@ -131,7 +131,7 @@ nav_order: 2
 {% endfor %}
 </div>
 
-## Visiting Students
+## visiting students
 
 <div class="row">
 {% for person in site.data.visiting_students %}
@@ -168,7 +168,7 @@ nav_order: 2
 {% endfor %}
 </div>
 
-## Alumni
+## alumni
 
 {% for alum in site.data.alumni %}
 <p style="margin-bottom: 8px;">
