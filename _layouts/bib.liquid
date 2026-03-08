@@ -192,24 +192,14 @@
     </div>
 
     <!-- Links/Buttons -->
-    {% assign has_abstract = false %}
-    {% if entry.abstract %}
-      {% assign has_abstract = true %}
-    {% endif %}
+    <div class="link-block">
+      {% if entry.abstract %}
+        <div class="link-row abstract-row">
+          <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        </div>
+      {% endif %}
 
-    {% assign has_other_links = false %}
-    {% if entry.pdf or entry.website or entry.video or entry.code or entry.slides or entry.award or entry.doi or entry.arxiv or entry.hal or entry.bibtex_show or entry.html or entry.supp or entry.blog or entry.poster %}
-      {% assign has_other_links = true %}
-    {% endif %}
-
-    {% if has_abstract %}
-      <div class="links mb-1">
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      </div>
-    {% endif %}
-
-    {% if has_other_links %}
-      <div class="links">
+      <div class="link-row">
         {% if entry.pdf %}
           {% if entry.pdf contains '://' %}
             <a href="{{ entry.pdf }}" class="btn btn-sm btn-outline-primary z-depth-0" role="button">paper</a>
@@ -290,7 +280,7 @@
           {% endif %}
         {% endif %}
       </div>
-    {% endif %}
+    </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}
