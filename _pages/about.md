@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div style="display:flex; justify-content:center; align-items:center; gap:30px; margin-bottom:1.5rem;">
+<div style="display:flex; justify-content:center; align-items:center; gap:30px;">
 
   <img
     src="{{ '/assets/img/group_logo_light.png' | relative_url }}"
