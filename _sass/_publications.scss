@@ -203,12 +203,13 @@ ol.bibliography {
   padding-left: 0;
 }
 
-.bibliography .preview {
-  max-width: 240px;
-  height: auto;
+.publications ol.bibliography li .preview {
+  width: 320px;
+  max-width: 320px;
+  margin-right: 1rem;
 }
 
-.bibliography .preview img {
-  width: 240px;
+.publications ol.bibliography li .preview img {
+  width: 100%;
   height: auto;
 }
