@@ -53,4 +53,4 @@ latest_posts:
 
 <img src="/assets/img/group_photo.jpg" alt="ARGer at NTU Singapore" style="width:80%; height:auto; display:block; margin:0 auto 1.5rem auto;">
 
-Welcome! We are the Algorithmic Robotics Group within the [College of Computing and Data Science](https://www.ntu.edu.sg/computing) at [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore. We focus on building general-purpose intelligent robots through learning, planning, and multi-agent perspectives.
+Welcome! We are the Algorithmic Robotics Group within the [College of Computing and Data Science](https://www.ntu.edu.sg/computing) at [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore. We design planning and learning algorithms to build general-purpose intelligent robots capable of performing long-horizon manipulation tasks and interacting with other robots and humans.
