@@ -27,28 +27,30 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div class="group-logo">
+<div style="display:flex; justify-content:center; align-items:center; gap:30px; margin-bottom:1.5rem;">
+
   <img
     src="{{ '/assets/img/group_logo_light.png' | relative_url }}"
     class="only-light"
     alt="ARG at NTU Singapore"
-    style="width: 40%; height: auto; margin: 0 auto 1.5rem auto;"
+    style="height:80px; width:auto;"
   >
 
   <img
     src="{{ '/assets/img/group_logo_dark.png' | relative_url }}"
     class="only-dark"
     alt="ARG at NTU Singapore"
-    style="width: 40%; height: auto; margin: 0 auto 1.5rem auto;"
+    style="height:80px; width:auto;"
   >
 
   <img
     src="{{ '/assets/img/ntu_logo.svg' | relative_url }}"
-    class="ntu-logo"
     alt="NTU"
+    style="height:70px; width:auto;"
   >
+
 </div>
 
-<img src="/assets/img/group_photo.jpg" alt="ARGer at NTU Singapore" style="width: 80%; height: auto; display: block; margin: 0 auto 1.5rem auto;">
+<img src="/assets/img/group_photo.jpg" alt="ARGer at NTU Singapore" style="width:80%; height:auto; display:block; margin:0 auto 1.5rem auto;">
 
 Welcome! We are the Algorithmic Robotics Group within the [College of Computing and Data Science](https://www.ntu.edu.sg/computing) at [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore. We focus on building general-purpose intelligent robots through learning, planning, and multi-agent perspectives.
