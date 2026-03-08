@@ -41,6 +41,12 @@ latest_posts:
     alt="ARG at NTU Singapore"
     style="width: 40%; height: auto; margin: 0 auto 1.5rem auto;"
   >
+
+  <img
+    src="{{ '/assets/img/ntu_logo.svg' | relative_url }}"
+    class="ntu-logo"
+    alt="NTU"
+  >
 </div>
 
 <img src="/assets/img/group_photo.jpg" alt="ARGer at NTU Singapore" style="width: 80%; height: auto; display: block; margin: 0 auto 1.5rem auto;">
