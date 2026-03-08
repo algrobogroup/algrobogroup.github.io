@@ -77,3 +77,4 @@ content_after_news: |
   <p>
   Robots are often deployed in environments where they coexist with other robots or humans, working collaboratively toward a common goal. Interactions with other robots involve challenges such as task decomposition, allocation, and <a href="https://arxiv.org/abs/2309.08897" target="_blank">multi-robot planning</a>. In contrast, interactions with humans require inferring human intentions or behaviors and dynamically adapting the robot's strategy based on these inferences. <a href="https://arxiv.org/abs/2202.10450" target="_blank">Ad-hoc teamwork</a> aims to address these challenges, enabling effective and seamless human-robot collaboration.
   </p>
+---
