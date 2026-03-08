@@ -48,40 +48,7 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <div class="after-news">
-      <a name="research"></a> 
-      <div class="row content-header">
-        <div class="col pr-0">
-          <p align="left">Research Areas</p>
-        </div>
-      </div>
-
-      <br>
-
-      <div class="row content-header-2">
-        <p align="left">Long-horizon planning and decision-making</p>
-      </div>
-
-      <div class="row content-summary pt-4 pb-2">
-        <p>Achieving long-horizon planning and decision-making capabilities, such as cooking a meal or cleaning a messy room, is essential for building intelligent robots. However, these tasks are challenging because they require selecting appropriate high-level actions, such as picking up a cup, and effectively planning how to execute those actions while satisfying physical and geometric constraints. We design <a href="https://arxiv.org/abs/2010.01083" target=&ldquo;blank&rdquo;>task and motion planning</a> algorithms to effectively address such challenges. Additionally, we are interested in exploring <a href="https://arxiv.org/abs/2410.05828" target=&ldquo;blank&rdquo;>new problem classes</a> by introducing practically relevant constraints and objectives.</p>
-      </div>
-
-      <div class="row content-header-2">
-        <p align="left">Robot learning</p>
-      </div>
-
-      <div class="row content-summary pt-4 pb-2">
-        <p>We aim for robots to learn from past experiences and adapt their behaviors in a generalizable and robust manner to handle novel tasks. Recent advancements in deep learning and foundation models offer significant opportunities for robotics to embrace data-driven approaches by leveraging breakthroughs in computer vision and natural language processing. Robot learning encompasses, but is not limited to, the development of <a href="https://arxiv.org/abs/2406.09246" target=&ldquo;blank&rdquo;>robot foundation models</a>, the use of <a href="https://arxiv.org/abs/2204.01691" target=&ldquo;blank&rdquo;>LLMs</a>, and the learning of <a href="https://arxiv.org/abs/2409.16012" target=&ldquo;blank&rdquo;>representations</a>, <a href="https://www.researchgate.net/profile/George-Konidaris/publication/323078755_From_Skills_to_Symbols_Learning_Symbolic_Representations_for_Abstract_High-Level_Planning/links/5a7e8e48a6fdcc0d4ba8342c/From-Skills-to-Symbols-Learning-Symbolic-Representations-for-Abstract-High-Level-Planning.pdf" target=&ldquo;blank&rdquo;>symbols</a>, <a href="https://arxiv.org/abs/2206.10680" target=&ldquo;blank&rdquo;>skills</a>, <a href="https://arxiv.org/abs/2103.04374" target=&ldquo;blank&rdquo;>policies</a>, and <a href="https://arxiv.org/abs/2211.07847" target=&ldquo;blank&rdquo;>heuristics</a>. In designing the learning pipeline, we often consider approaches such as few-shot learning, imitation learning, lifelong learning, and curriculum learning.</p>
-      </div>
-
-      <div class="row content-header-2">
-        <p align="left">Interaction with other agents</p>
-      </div>
-
-      <div class="row content-summary pt-4 pb-2">
-        <p>Robots are often deployed in environments where they coexist with other robots or humans, working collaboratively toward a common goal. Interactions with other robots involve challenges such as task decomposition, allocation, and <a href="https://arxiv.org/abs/2309.08897" target=&ldquo;blank&rdquo;>multi-robot planning</a>. In contrast, interactions with humans require inferring human intentions or behaviors and dynamically adapting the robot's strategy based on these inferences. <a href="https://arxiv.org/abs/2202.10450" target=&ldquo;blank&rdquo;>Ad-hoc teamwork</a> aims to address these challenges, enabling effective and seamless human-robot collaboration.</p>
-      </div>
-    </div>
+    {{ content_after_news }}
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
