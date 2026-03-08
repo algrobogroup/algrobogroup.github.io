@@ -7,14 +7,10 @@ nav: true
 nav_order: 3
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
 {% include bib_search.liquid %}
 
-<div class="publications">
+{% bibliography --query @*[year>=2026] %}
 
-{% bibliography %}
+<h2 class="year">Before 2026</h2>
 
-</div>
+{% bibliography --group_by none --query @*[year<2026] %}

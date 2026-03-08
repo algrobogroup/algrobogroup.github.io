@@ -186,3 +186,13 @@
 .citation-number {
   color: var(--global-theme-color);
 }
+
+.publications {
+  h2.bibliography.before-2026-label {
+    color: var(--global-divider-color);
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
+    margin-top: 2rem;
+    text-align: right;
+  }
+}

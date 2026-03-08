@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<img src="/assets/img/group_logo.png" alt="ARG at NTU Singapore" style="width: 35%; height: auto; display: block; margin: 0 auto 1.5rem auto;">
+<img src="/assets/img/group_logo.png" alt="ARG at NTU Singapore" style="width: 40%; height: auto; display: block; margin: 0 auto 1.5rem auto;">
 
 <img src="/assets/img/group_photo.jpg" alt="ARGer at NTU Singapore" style="width: 80%; height: auto; display: block; margin: 0 auto 1.5rem auto;">
 
