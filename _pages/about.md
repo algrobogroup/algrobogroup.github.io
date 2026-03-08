@@ -33,20 +33,20 @@ latest_posts:
     src="{{ '/assets/img/group_logo_light.png' | relative_url }}"
     class="only-light"
     alt="ARG at NTU Singapore"
-    style="height:90px; width:auto;"
+    style="width: 40%; height: auto;"
   >
 
   <img
     src="{{ '/assets/img/group_logo_dark.png' | relative_url }}"
     class="only-dark"
     alt="ARG at NTU Singapore"
-    style="height:90px; width:auto;"
+    style="width: 40%; height: auto;"
   >
 
   <img
     src="{{ '/assets/img/ntu_logo.svg' | relative_url }}"
     alt="NTU"
-    style="height:100px; width:auto;"
+    style="width: 50%; height: auto;"
   >
 
 </div>
