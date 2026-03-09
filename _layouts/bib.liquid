@@ -154,7 +154,7 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}
         <em>{{ entry.journal }}</em>{% if entry.year %}, {{ entry.year }}{% endif %}
-        {% if entry.journal2 %}
+        {% if entry.journal2 and entry.journal2 != "" %}
           / <em>{{ entry.journal2 }}</em>{% if entry.year2 %}, {{ entry.year2 }}{% endif %}
         {% endif %}
       {% endcapture %}
@@ -194,11 +194,6 @@
 
     <!-- Links/Buttons -->
     <div class="links">
-      {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button">
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}awarded{% endif -%}
-        </a>
-      {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
           <a href="{{ entry.pdf }}" class="btn btn-sm btn-outline-primary z-depth-0" role="button">paper</a>
@@ -267,6 +262,11 @@
       {% endif %}
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">blog</a>
+      {% endif %}
+      {% if entry.award %}
+        <a class="award btn btn-sm z-depth-0" role="button">
+          {%- if entry.award_name %}{{ entry.award_name }}{% else %}awarded{% endif -%}
+        </a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
