@@ -154,7 +154,7 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}
         <em>{{ entry.journal }}</em>{% if entry.year %}, {{ entry.year }}{% endif %}
-        {% if entry.journal2 and entry.journal2 != "" %}
+        {% if entry.journal2 %}
           / <em>{{ entry.journal2 }}</em>{% if entry.year2 %}, {{ entry.year2 }}{% endif %}
         {% endif %}
       {% endcapture %}
