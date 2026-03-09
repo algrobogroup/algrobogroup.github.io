@@ -192,14 +192,14 @@
     </div>
 
     <!-- Links/Buttons -->
-    <div class="link-block">
+    <div class="pub-link-stack">
       {% if entry.abstract %}
-        <div class="link-row abstract-row">
+        <div class="pub-link-row pub-abstract-row">
           <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
         </div>
       {% endif %}
 
-      <div class="link-row">
+      <div class="pub-link-row">
         {% if entry.pdf %}
           {% if entry.pdf contains '://' %}
             <a href="{{ entry.pdf }}" class="btn btn-sm btn-outline-primary z-depth-0" role="button">paper</a>

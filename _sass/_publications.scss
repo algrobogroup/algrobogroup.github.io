@@ -214,15 +214,20 @@ ol.bibliography {
   height: auto;
 }
 
-.link-block {
-  margin-top: 0.35rem;
+.pub-link-stack {
+  margin-top: 0.2rem;
 }
 
-.link-row {
+.pub-link-row {
   display: block;
-  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.abstract-row {
+.pub-abstract-row {
   margin-bottom: 0.2rem;
+}
+
+.pub-link-row .btn {
+  margin-top: 0;
 }
