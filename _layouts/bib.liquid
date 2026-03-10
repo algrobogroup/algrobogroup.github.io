@@ -154,7 +154,7 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}
         <em>{{ entry.journal }}</em>{% if entry.year %}, {{ entry.year }}{% endif %}
-        {% if entry.journal2 %}
+        {% if entry.journal2 and entry.journal2 != "" %}
           / <em>{{ entry.journal2 }}</em>{% if entry.year2 %}, {{ entry.year2 }}{% endif %}
         {% endif %}
       {% endcapture %}
@@ -185,12 +185,11 @@
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
-    <div class="periodical">
-      {{ periodical | strip }}
-    </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% if entry.type == 'article' %}
+      {% capture periodical %}{{ entrytype }}{% endcapture %}
+    {% else %}
+      {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
