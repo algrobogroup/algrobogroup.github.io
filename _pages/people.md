@@ -196,7 +196,7 @@ nav_order: 2
             {% elsif person.name contains 'Ava Bowman' %}
             <p style="font-size: 0.9em; color: #666;">Undergrad (Math, Wesleyan)</p>
             {% else %}
-            <p style="font-size: 0.9em; color: #666;">Undergrad (CE, UMich)</p>
+            <p style="font-size: 0.9em; color: #666;">{{person.position | strip_html | truncate: 30}}</p>
             {% endif %}
         {% else %}
         <p style="font-size: 0.9em; color: #666;">{{person.position | strip_html | truncate: 30}}</p>
