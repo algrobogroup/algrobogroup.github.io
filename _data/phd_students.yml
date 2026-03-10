@@ -1,6 +1,6 @@
-- name: A Student
+- name: Jean-Manuel Cabrillana
   degrees: PhD Student
-  image: YoonchangSung.jpg
+  image: 
   altimage:
   position: 
   email: 
@@ -11,41 +11,16 @@
   description: 
   description1:
 
-- name: B Student
+- name: Duong Thi Thuy Ngan
   degrees: PhD Student
-  image: YoonchangSung.jpg
+  image: DuongThiThuyNgan.jpg
   altimage:
   position: 
   email: 
-  website: 
+  website: https://ngandng.github.io/
   scholar: 
   google_scholar: 
   twitter:
   description: 
   description1:
 
-- name: C Student
-  degrees: PhD Student
-  image: YoonchangSung.jpg
-  altimage:
-  position: 
-  email: 
-  website: 
-  scholar: 
-  google_scholar: 
-  twitter:
-  description: 
-  description1:
-
-- name: D Student
-  degrees: PhD Student
-  image: YoonchangSung.jpg
-  altimage:
-  position: 
-  email: 
-  website: 
-  scholar: 
-  google_scholar: 
-  twitter:
-  description: 
-  description1:
