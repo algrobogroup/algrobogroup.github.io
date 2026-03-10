@@ -163,7 +163,12 @@
     {% endif %}
 
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{ entry.journal }}</em>{% if entry.year %}, {{ entry.year }}{% endif %}{% if entry.journal2 %} / <em>{{ entry.journal2 }}</em>{% if entry.year2 %}, {{ entry.year2 }}{% endif %}{% endif %}{% endcapture %}
+      {% capture entrytype %}
+        <em>{{ entry.journal }}</em>{% if entry.year %}, {{ entry.year }}{% endif %}
+        {% if entry.journal2 %}
+          <br><em>{{ entry.journal2 }}</em>{% if entry.year2 %}, {{ entry.year2 }}{% endif %}
+        {% endif %}
+      {% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
