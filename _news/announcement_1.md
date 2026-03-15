@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-03-01
+date: 2025-09-30
 inline: true
 related_posts: false
 ---
 
-The group’s website has been launched.
+Serving as a Junior Co-chair for the IEEE R&A Society Technical Committee on Multi-Robot Systems.
