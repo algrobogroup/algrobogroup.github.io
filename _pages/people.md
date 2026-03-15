@@ -33,7 +33,7 @@ nav_order: 2
 {% endfor %}
 </div>
 
-## postdoctoral researchers
+## postdocs
 
 <div class="row">
 {% for person in site.data.postdocs %}
