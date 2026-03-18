@@ -1,5 +1,5 @@
 - name: Bryan Atista Kiely
-  degrees: Undergraduate Student
+  degrees:
   image: BryanAtistaKiely.jpg
   altimage:
   position: 
@@ -12,7 +12,7 @@
   description1:
 
   - name: Divisha Jain
-  degrees: Undergraduate Student
+  degrees:
   image: DivishaJain.jpg
   altimage:
   position: 
