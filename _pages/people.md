@@ -190,6 +190,17 @@ nav_order: 2
             <strong>{{person.name}}</strong>
             {% endif %}
         </h5>
+        {% if person.degrees contains 'Undergraduate Student' %}
+            {% if person.name contains 'Katherine Song' %}
+            <p style="font-size: 0.9em; color: #666;">Undergrad (EE, Northwestern)</p>
+            {% elsif person.name contains 'Ava Bowman' %}
+            <p style="font-size: 0.9em; color: #666;">Undergrad (Math, Wesleyan)</p>
+            {% else %}
+            <p style="font-size: 0.9em; color: #666;">{{person.position | strip_html | truncate: 30}}</p>
+            {% endif %}
+        {% else %}
+        <p style="font-size: 0.9em; color: #666;">{{person.position | strip_html | truncate: 30}}</p>
+        {% endif %}
         <!-- {% if person.email %}
         <small><i class="fa fa-envelope"></i> {{person.email}}</small>
         {% endif %} -->
@@ -216,6 +227,17 @@ nav_order: 2
             <strong>{{person.name}}</strong>
             {% endif %}
         </h5>
+        {% if person.degrees contains 'Undergraduate Student' %}
+            {% if person.name contains 'Katherine Song' %}
+            <p style="font-size: 0.9em; color: #666;">Undergrad (EE, Northwestern)</p>
+            {% elsif person.name contains 'Ava Bowman' %}
+            <p style="font-size: 0.9em; color: #666;">Undergrad (Math, Wesleyan)</p>
+            {% else %}
+            <p style="font-size: 0.9em; color: #666;">{{person.position | strip_html | truncate: 30}}</p>
+            {% endif %}
+        {% else %}
+        <p style="font-size: 0.9em; color: #666;">{{person.position | strip_html | truncate: 30}}</p>
+        {% endif %}
         <!-- {% if person.email %}
         <small><i class="fa fa-envelope"></i> {{person.email}}</small>
         {% endif %} -->
