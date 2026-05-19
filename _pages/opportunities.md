@@ -10,7 +10,7 @@ Thank you for your interest in working with us! You can explore the broad resear
 
 ## postdoc positions
 
-We are not currently actively looking for postdocs, but if your research profile is relevant and competitive, please feel free to send an email to the PI.
+We are currently looking for one postdoc in robot learning. If your research profile is relevant and competitive, please feel free to send an email to the PI.
 
 ## phd student positions
 
