@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited talk at the [Workshop on LeaPRiDE: Learning, Planning, and Reasoning in Dynamic Environments](https://leapride.robot-learning.net/) at IROS.
+Invited talk at the [Workshop on LeaPRiDE: Learning, Planning, and Reasoning in Dynamic Environments](https://leapride.robot-learning.net/) at IROS 2025.
