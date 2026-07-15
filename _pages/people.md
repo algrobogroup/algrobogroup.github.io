@@ -209,7 +209,7 @@ nav_order: 2
 {% endfor %}
 </div>
 
-<!-- ## alumni
+## alumni
 
 {% for alum in site.data.alumni %}
 <p style="margin-bottom: 8px;">
@@ -227,5 +227,8 @@ nav_order: 2
     {% elsif alum.now %}
     (Next: {{alum.now | strip_html | truncate: 40}})
     {% endif %}
+    {% if alum.position %}
+    <p style="font-size: 0.9em; color: #666;">{{alum.position | strip_html | truncate: 30}}</p>
+    {% endif %}
 </p>
-{% endfor %} -->
+{% endfor %}
