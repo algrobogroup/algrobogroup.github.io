@@ -10,13 +10,13 @@ Thank you for your interest in working with us! You can explore the broad resear
 
 ## postdoc positions
 
-We are currently looking for one postdoc in robot learning. If your research profile is relevant and competitive, please feel free to send an email to the PI.
+Please use this link to apply: <a href="https://forms.gle/gMiYyzLof9PXrY8J9" target="_blank">application link</a>
 
 ## phd student positions
 
-We will have openings for the <b>Fall 2027</b> intake. Given the timeline, we will announce them toward the end of this year. 
+Please use this link to apply: <a href="https://forms.gle/U21ktU2Tc5XmJeabA" target="_blank">application link</a>
 
-For <b>Spring 2027</b>, only exceptional candidates who can secure scholarships such as <a href="https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/npgs" target="_blank">NPGS</a>, <a href="https://aisingapore.org/research/phd-fellowship-programme/" target="_blank">AI Singapore (AISG)</a>, or <a href="https://www.a-star.edu.sg/scholarships/home/scholarships/ags--scholarship" target="_blank">AGS</a> will be considered. If you are interested, please first check your eligibility on the relevant websites and, if applicable, send an email to the PI.
+Funding opportunities for PhD study: If you are eligible, we may be able to apply for the following opportunities: <a href="https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/npgs" target="_blank">NPGS</a>, <a href="https://aisingapore.org/research/phd-fellowship-programme/" target="_blank">AI Singapore (AISG)</a>, or <a href="https://www.a-star.edu.sg/scholarships/home/scholarships/ags--scholarship" target="_blank">AGS</a>
 
 ## master's and undergraduate student positions
 
