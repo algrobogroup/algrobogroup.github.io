@@ -1,20 +1,32 @@
-- name: Shivaram Kumar
+- name: Divisha Jain
   degrees: Undergraduate Student
-  image: ShivaramKumar.jpg
+  image: DivishaJain.jpg
   altimage:
-  position: >
-    Visiting Student 
+  position: 
   email: 
-  website: https://www.shivaram.net
+  website: 
   scholar: 
   google_scholar: 
   twitter:
   description: 
   description1:
 
-- name: Divisha Jain
+- name: Michael Yip
   degrees: Undergraduate Student
-  image: DivishaJain.jpg
+  image: MichaelHoiWengYip.jpg
+  altimage:
+  position: 
+  email: 
+  website: 
+  scholar: 
+  google_scholar: 
+  twitter:
+  description: 
+  description1:
+
+- name: Wenda Chang
+  degrees: Undergraduate Student
+  image: WendaChang.jpg
   altimage:
   position: 
   email: 

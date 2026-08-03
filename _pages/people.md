@@ -211,24 +211,55 @@ nav_order: 2
 
 ## alumni
 
+<style>
+.alumni-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 12px 32px;
+}
+
+.alumni-item {
+    margin: 0;
+}
+
+.alumni-position {
+    margin: 3px 0 0;
+    font-size: 0.9em;
+    color: #666;
+}
+</style>
+
+<div class="alumni-grid">
 {% for alum in site.data.alumni %}
-<p style="margin-bottom: 8px;">
+<div class="alumni-item">
     {% if alum.website %}
-    <strong><a href="{{alum.website}}" target="_blank">{{alum.name}}</a></strong>
+    <strong>
+        <a href="{{ alum.website }}" target="_blank">{{ alum.name }}</a>
+    </strong>
     {% elsif alum.linkedin %}
-    <strong><a href="https://www.linkedin.com/in/{{alum.linkedin}}" target="_blank">{{alum.name}}</a></strong>
+    <strong>
+        <a href="https://www.linkedin.com/in/{{ alum.linkedin }}" target="_blank">
+            {{ alum.name }}
+        </a>
+    </strong>
     {% else %}
-    <strong>{{alum.name}}</strong>
+    <strong>{{ alum.name }}</strong>
     {% endif %}
+
     {% if alum.previously and alum.now %}
-    ({{alum.previously | strip_html | truncate: 40}}, Next: {{alum.now | strip_html | truncate: 40}})
+    ({{ alum.previously | strip_html | truncate: 40 }},
+    Next: {{ alum.now | strip_html | truncate: 40 }})
     {% elsif alum.previously %}
-    ({{alum.previously | strip_html | truncate: 40}})
+    ({{ alum.previously | strip_html | truncate: 40 }})
     {% elsif alum.now %}
-    (Next: {{alum.now | strip_html | truncate: 40}})
+    (Next: {{ alum.now | strip_html | truncate: 40 }})
     {% endif %}
+
     {% if alum.position %}
-    <p style="font-size: 0.9em; color: #666;">{{alum.position | strip_html | truncate: 30}}</p>
+    <p class="alumni-position">
+        {{ alum.position | strip_html | truncate: 30 }}
+    </p>
     {% endif %}
-</p>
+</div>
 {% endfor %}
+</div>
