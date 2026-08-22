@@ -200,9 +200,11 @@
 
     <div class="periodical">
       {{ periodical | strip }}
-    </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
+      {% if entry.award %}
+        <span style="color:red; font-weight:600;">
+          {% if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif %}
+        </span>
+      {% endif %}
     </div>
 
     <!-- Links/Buttons -->
@@ -275,11 +277,6 @@
       {% endif %}
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">blog</a>
-      {% endif %}
-      {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button">
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}awarded{% endif -%}
-        </a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
