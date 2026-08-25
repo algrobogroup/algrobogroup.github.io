@@ -10,7 +10,7 @@ Thank you for your interest in working with us! You can explore the broad resear
 
 ## postdoc positions
 
-Please use this link to apply: <a href="https://forms.gle/gMiYyzLof9PXrY8J9" target="_blank">application link</a>
+Strong publications on vision-language-action models or world models are preferred. Please use this link to apply: <a href="https://forms.gle/gMiYyzLof9PXrY8J9" target="_blank">application link</a>
 
 ## phd student positions
 
