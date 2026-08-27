@@ -52,25 +52,28 @@ content_after_news: |
 
 <div style="display:flex; justify-content:center; align-items:center; gap:30px;">
 
-  <img
-    src="{{ '/assets/img/group_logo_light.png' | relative_url }}"
-    class="only-light"
-    alt="ARG at NTU Singapore"
-    style="width: 40%; height: auto;"
-  >
+<img
+src="{{ '/assets/img/group_logo_light.png' | relative_url }}"
+class="only-light"
+alt="ARG at NTU Singapore"
+style="width: 40%; height: auto;"
 
-  <img
-    src="{{ '/assets/img/group_logo_dark.png' | relative_url }}"
-    class="only-dark"
-    alt="ARG at NTU Singapore"
-    style="width: 40%; height: auto;"
-  >
+>
 
-  <img
-    src="{{ '/assets/img/ntu_logo.svg' | relative_url }}"
-    alt="NTU"
-    style="width: 50%; height: auto;"
-  >
+<img
+src="{{ '/assets/img/group_logo_dark.png' | relative_url }}"
+class="only-dark"
+alt="ARG at NTU Singapore"
+style="width: 40%; height: auto;"
+
+>
+
+<img
+src="{{ '/assets/img/ntu_logo.svg' | relative_url }}"
+alt="NTU"
+style="width: 50%; height: auto;"
+
+>
 
 </div>
 
