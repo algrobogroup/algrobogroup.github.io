@@ -76,3 +76,31 @@
   twitter:
   description:
   description1:
+
+- name: Wendi Yang
+  degrees: Undergraduate Student
+  image: WendiYang.jpg
+  altimage:
+  position: >
+    Visiting Student
+  email:
+  website:
+  scholar:
+  google_scholar:
+  twitter:
+  description:
+  description1:
+
+- name: Ahaskar Kashyap
+  degrees: Undergraduate Student
+  image: AhaskarKashyap.jpg
+  altimage:
+  position: >
+    Visiting Student
+  email:
+  website: https://ahaskar04.github.io/webpage/
+  scholar:
+  google_scholar:
+  twitter:
+  description:
+  description1:
