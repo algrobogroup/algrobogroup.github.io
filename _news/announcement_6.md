@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper on LLM-enhanced curriculum learning for manipulation has been accepted to IROS 2026.
+One paper on [LLM-enhanced curriculum learning for manipulation](https://arxiv.org/abs/2607.23515) has been accepted to IROS 2026.
