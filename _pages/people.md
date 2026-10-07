@@ -115,6 +115,32 @@ nav_order: 2
 {% endfor %}
 </div>
 
+## research associates
+
+<div class="row">
+{% for person in site.data.research_associates %}
+<div class="col-sm-6 col-md-4 col-lg-3" style="margin-bottom: 20px;">
+    <div class="text-center">
+        <img class="img-fluid rounded" style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 10px;" src="{{ person.image | prepend: '/assets/img/people/' | prepend: site.baseurl | prepend: site.url }}" alt="photo of {{person.name}}">
+        <h5 style="margin-bottom: 3px;">
+            {% if person.google_scholar %}
+            <strong><a href="{{person.google_scholar}}" target="_blank">{{person.name}}</a></strong>
+            {% elsif person.website %}
+            <strong><a href="{{person.website}}" target="_blank">{{person.name}}</a></strong>
+            {% elsif person.linkedin %}
+            <strong><a href="https://www.linkedin.com/in/{{person.linkedin}}" target="_blank">{{person.name}}</a></strong>
+            {% else %}
+            <strong>{{person.name}}</strong>
+            {% endif %}
+        </h5>
+        <!-- {% if person.email %}
+        <small><i class="fa fa-envelope"></i> {{person.email}}</small>
+        {% endif %} -->
+    </div>
+</div>
+{% endfor %}
+</div>
+
 ## master's students
 
 <div class="row">
