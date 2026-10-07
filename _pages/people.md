@@ -133,6 +133,21 @@ nav_order: 2
             <strong>{{person.name}}</strong>
             {% endif %}
         </h5>
+        {% if person.position contains 'Co-advised' %}
+            {% if person.position contains 'Electrical and Computer Engineering' %}
+            <p style="font-size: 0.9em; color: #666; margin-bottom: 2px;">ECE ({{person.position | split: '<br/>' | slice: 1, 1 | first | split: 'Drexel University,' | last | strip }} - )</p>
+            <p style="font-size: 0.8em; color: #888; margin-top: 0; margin-bottom: 0;">{{person.position | split: '<br/>' | first | strip }}</p>
+            {% elsif person.position contains 'Computer Science' %}
+            <p style="font-size: 0.9em; color: #666; margin-bottom: 2px;">CS ({{person.position | split: '<br/>' | slice: 1, 1 | first | split: 'Drexel University,' | last | strip }} - )</p>
+            <p style="font-size: 0.8em; color: #888; margin-top: 0; margin-bottom: 0;">{{person.position | split: '<br/>' | first | strip }}</p>
+            {% endif %}
+        {% elsif person.position contains 'Electrical and Computer Engineering' %}
+        <p style="font-size: 0.9em; color: #666;">ECE ({{person.position | split: '<br/>' | first | split: 'Drexel University,' | last | strip }} - )</p>
+        {% elsif person.position contains 'Computer Science' %}
+        <p style="font-size: 0.9em; color: #666;">CS ({{person.position | split: '<br/>' | first | split: 'Drexel University,' | last | strip }} - )</p>
+        {% else %}
+        <p style="font-size: 0.9em; color: #666;">{{person.position | split: ',' | first | strip_html | truncate: 30}}</p>
+        {% endif %}
         <!-- {% if person.email %}
         <small><i class="fa fa-envelope"></i> {{person.email}}</small>
         {% endif %} -->
