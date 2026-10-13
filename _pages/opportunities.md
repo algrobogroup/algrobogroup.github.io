@@ -14,9 +14,11 @@ Strong publications on vision-language-action models or world models are preferr
 
 ## phd student positions
 
-Please use this link to apply: <a href="https://forms.gle/U21ktU2Tc5XmJeabA" target="_blank">application link</a>
+We are not currently recruiting PhD students.
 
-Funding opportunities for PhD study: If you are eligible, we may be able to apply for the following opportunities: <a href="https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/npgs" target="_blank">NPGS</a>, <a href="https://aisingapore.org/research/phd-fellowship-programme/" target="_blank">AI Singapore (AISG)</a>, or <a href="https://www.a-star.edu.sg/scholarships/home/scholarships/ags--scholarship" target="_blank">AGS</a>
+<!-- Please use this link to apply: <a href="https://forms.gle/U21ktU2Tc5XmJeabA" target="_blank">application link</a>
+
+Funding opportunities for PhD study: If you are eligible, we may be able to apply for the following opportunities: <a href="https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/npgs" target="_blank">NPGS</a>, <a href="https://aisingapore.org/research/phd-fellowship-programme/" target="_blank">AI Singapore (AISG)</a>, or <a href="https://www.a-star.edu.sg/scholarships/home/scholarships/ags--scholarship" target="_blank">AGS</a> -->
 
 ## master's and undergraduate student positions
 
