@@ -20,7 +20,9 @@ nav_order: 5
       %}
       <p class="caption">ASPIRE Workshop — November 2026</p>
     </div>
-  
+  </div>
+
+  <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
       {% include figure.liquid
         loading="eager"
@@ -30,7 +32,9 @@ nav_order: 5
       %}
       <p class="caption">Group Retreat — October 2026</p>
     </div>
+  </div>
 
+  <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
       {% include figure.liquid
         loading="lazy"
