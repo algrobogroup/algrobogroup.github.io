@@ -8,7 +8,7 @@ nav_order: 5
 
 <div class="gallery">
 
-  <h3 class="mt-5">2025</h3>
+  <h3 class="mt-5">2026</h3>
 
   <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -20,9 +20,6 @@ nav_order: 5
       %}
       <p class="caption">ASPIRE Workshop — November 2026</p>
     </div>
-  </div>
-
-  <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
       {% include figure.liquid
         loading="lazy"
@@ -32,9 +29,6 @@ nav_order: 5
       %}
       <p class="caption">Group Retreat — November 2026</p>
     </div>
-  </div>
-
-  <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
       {% include figure.liquid
         loading="lazy"
